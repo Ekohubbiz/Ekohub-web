@@ -1,0 +1,138 @@
+.small_dot {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+.page {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 3rem;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-end;
+  font-size: x-small;
+  padding-bottom: 1rem;
+}
+
+.months {
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #f7f5f2;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #1c304f;
+}
+
+.heading2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8e96a3;
+  line-height: 21px;
+}
+
+.image_div {
+  padding: 4rem 3rem 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  border-radius: 25px;
+  width: 250px;
+  height: 350px;
+}
+
+.card-image {
+  padding: 20px 80px 0;
+  display: inline-block;
+}
+
+.plans {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #3f4765;
+}
+
+.money {
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+
+.description {
+  color: #eb3352;
+  font-family: 'Popins', sans-serif;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: small;
+  padding: 10px 40px;
+  font-weight: 600;
+}
+
+.offer_section {
+  padding: 1rem;
+}
+
+.offer_deets {
+  padding-bottom: 5px;
+  display: flex;
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+  color: #8e96a3;
+}
+
+.offer_style {
+  padding-bottom: 5px;
+  display: flex;
+  font-size: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 37px;
+  color: #1c304f;
+}
+
+.icon-mark {
+  width: 9px;
+  position: relative;
+  right: 12px;
+}
+
+.icon-circle {
+  width: 15px;
+}
+
+/*@media (max-width: 994px)
+    {
+        .options{
+            justify-content: flex-start;
+        }
+        .heading{
+            text-align: start;
+        }
+        .cards{
+            border-radius: 15px;
+            width:fit-content;
+            height: 200px;
+        }
+        .offer_section{
+            padding: 1rem 1rem 1rem 0;
+        }
+    }*/

@@ -1,0 +1,115 @@
+{
+  "name": "connectme",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.1.1",
+    "@fvilers/disable-react-devtools": "^1.3.0",
+    "@material-tailwind/react": "^1.0.8",
+    "@react-oauth/google": "^0.2.6",
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.26.1",
+    "connected-react-router": "^6.9.2",
+    "firebase": "^9.8.4",
+    "flowbite": "^1.4.2",
+    "history": "^5.3.0",
+    "jest-preview": "^0.3.1",
+    "moment": "^2.29.3",
+    "npm-run-all": "^4.1.5",
+    "react": "^18.0.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.0.0",
+    "react-facebook-login": "^4.1.1",
+    "react-firebase-hooks": "^5.0.3",
+    "react-google-login": "^5.2.2",
+    "react-helmet": "^6.1.0",
+    "react-image-gallery": "^1.2.8",
+    "react-infinite-scroller": "^1.2.6",
+    "react-modal-sheet": "^1.5.2",
+    "react-moment": "^1.1.2",
+    "react-otp-input": "^2.4.0",
+    "react-paginate": "^8.1.3",
+    "react-pure-loaders": "^3.0.1",
+    "react-redux": "^7.2.8",
+    "react-responsive": "^9.0.0-beta.8",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "react-select": "^5.4.0",
+    "react-share": "^4.4.0",
+    "react-toastify": "^9.0.3",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.15",
+    "sweetalert2-react-content": "^5.0.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "jest-preview": "jest-preview",
+    "lint": "eslint --ext .jsx --ext .js src/",
+    "test:debug": "npm-run-all -p test jest-preview",
+    "lint:fix": "eslint --fix --ext .js,.jsx .",
+    "format": "prettier --check ./src",
+    "pretty": "prettier --write ./src",
+    "svgr": "svgr -d src/assets/svgs/ "
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ],
+    "rules": {
+      "jsx-a11y/anchor-is-valid": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^6.2.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.4.3",
+    "autoprefixer": "^10.4.4",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "husky": "^7.0.4",
+    "jest-watch-typeahead": "^0.6.5",
+    "lint-staged": "^12.4.1",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^3.0.23"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

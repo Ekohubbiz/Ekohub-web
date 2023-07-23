@@ -1,0 +1,65 @@
+.product-title {
+  font: size 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #1c304f;
+}
+
+.reviewtext {
+  font-size: 10px;
+}
+
+.product-likedicon {
+  position: absolute;
+  margin: 40px;
+  float: right;
+}
+
+.product-desc {
+  p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #7a819a;
+  }
+}
+
+.product-desc-info {
+  p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    text-align: right;
+  }
+}
+
+.product-variant {
+  .call-merc {
+    background-color: #ffcdcd;
+  }
+  .chat-merc {
+    background-color: #ad2b39;
+  }
+}
+.chat-merc {
+  background-color: #ad2b39;
+}
+
+.image-gallery {
+  width: auto;
+  height: 40%;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
+}
+
+.safe {
+  ul {
+    list-style-type: disc;
+  }
+}
