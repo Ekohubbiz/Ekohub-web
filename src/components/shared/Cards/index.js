@@ -285,7 +285,8 @@ function Card3Mobile({ img, title, item }) {
 
 function Card4({ img, title, ads, to, onMouseEnter, onMouseLeave, state }) {
   return (
-    <button
+    <div className="border-bottom">
+  <button
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       className="flex items-center justify-between p-4 hover:text-red-600 group w-full"
@@ -310,12 +311,9 @@ function Card4({ img, title, ads, to, onMouseEnter, onMouseLeave, state }) {
           </div>
         </div>
       </Link>
-      <Link to={to} state={state}>
-        <div className="text-lg text-slate-400 font-bold hover:text-red-600">
-          {'>'}
-        </div>
-      </Link>
     </button>
+    </div>
+  
   );
 }
 

@@ -143,7 +143,7 @@ const Home = () => {
           <div className="mb-2">
             <div className="grid grid-cols-5 gap-2 pt-4">
               <div className="hidden lg:block col-span-1">
-                <div className="relative bg-main-card rounded-lg drop-shadow-sm categories sticky top-4 overflow-y-auto">
+                <div className="relative bg-main-card rounded-lg drop-shadow-sm categories sticky top-4 overflow-y-hidden">
                   {(categories || []).map((category, i) => (
                     <Card4
                       key={i}
@@ -165,7 +165,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="relative lg:col-span-4 md:col-span-5 sticky top-0 overflow-y-auto">
+              <div className="relative lg:col-span-4 md:col-span-5 sticky top-0 overflow-x-hidden">
                 {/* {isShown && subcategory.length > 0 && (
                   <>
                     <div className="absolute top-0 left-0 bg-main-card rounded-lg drop-shadow-sm p-4 w-64 z-50">
@@ -193,8 +193,7 @@ const Home = () => {
                   </>
                 )} */}
                 <div className="relative rounded-lg drop-shadow-md">
-                  <div className="p-4 bg-main-card rounded-lg drop-shadow-sm">
-                    <div className="my-4">
+                  <div className="p-5 bg-main-card rounded-lg drop-shadow-sm">
                       <Carousel autoPlay swipeable showThumbs={false}>
                         <div>
                           <img src={caro1} />
@@ -209,19 +208,18 @@ const Home = () => {
                           <img src={caro4} />
                         </div>
                       </Carousel>
-                    </div>
                     {/* <div>
                       <div className="flex justify-between">
                         <p className="font-bold text-lg text-gray-700">
                           Popular 🔥
                         </p>
                         <Link to={`/search-product`}>
-                          <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                          <p className="font-bold text-md text-gray-400 hover:text-red-600">
                             View all
                           </p>
                         </Link>
                       </div>
-                      <div id="content" className="flex py-4 overflow-x-auto">
+                      <div id="content" className="flex py-4 overflow-x-hidden">
                         {(categories || []).map((category, i) => (
                           <p
                             key={i}
@@ -267,7 +265,7 @@ const Home = () => {
                     </div> */}
                     <div>
                       {populars.length < 1 && (
-                        <div className="flex overflow-x-auto">
+                        <div className="flex overflow-x-hidden">
                           <SkeletonItem />
                           <SkeletonItem />
                           <SkeletonItem />
@@ -289,13 +287,13 @@ const Home = () => {
                                 <Link
                                   to={`/category-product/${populars[0]?.data?.data?.products[0]?.category.id}`}
                                 >
-                                  <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                                  <p className="font-bold text-md text-gray-400 hover:text-red-600">
                                     View all
                                   </p>
                                 </Link>
                               </div>
                             )}
-                            <div className="flex overflow-x-auto">
+                            <div className="flex overflow-x-hidden">
                               {(populars[0]?.data?.data?.products || []).map(
                                 (product, index) => {
                                   return (
@@ -328,13 +326,13 @@ const Home = () => {
                                 <Link
                                   to={`/category-product/${populars[1]?.data?.data?.products[0]?.category.id}`}
                                 >
-                                  <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                                  <p className="font-bold text-md text-gray-400 hover:text-red-600">
                                     View all
                                   </p>
                                 </Link>
                               </div>
                             )}
-                            <div className="flex overflow-x-auto">
+                            <div className="flex overflow-x-hidden">
                               {(populars[1]?.data?.data?.products || []).map(
                                 (product, index) => {
                                   return (
@@ -367,13 +365,13 @@ const Home = () => {
                                 <Link
                                   to={`/category-product/${populars[2]?.data?.data?.products[0]?.category.id}`}
                                 >
-                                  <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                                  <p className="font-bold text-md text-gray-400 hover:text-red-600">
                                     View all
                                   </p>
                                 </Link>
                               </div>
                             )}
-                            <div className="flex overflow-x-auto">
+                            <div className="flex overflow-x-hidden">
                               {(populars[2]?.data?.data?.products || []).map(
                                 (product, index) => {
                                   return (
@@ -406,13 +404,13 @@ const Home = () => {
                                 <Link
                                   to={`/category-product/${populars[3]?.data?.data?.products[0]?.category.id}`}
                                 >
-                                  <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                                  <p className="font-bold text-md text-gray-400 hover:text-red-600">
                                     View all
                                   </p>
                                 </Link>
                               </div>
                             )}
-                            <div className="flex overflow-x-auto">
+                            <div className="flex overflow-x-hiidden">
                               {(populars[3]?.data?.data?.products || []).map(
                                 (product, index) => {
                                   return (
@@ -445,13 +443,13 @@ const Home = () => {
                                 <Link
                                   to={`/category-product/${populars[4]?.data?.data?.products[0]?.category.id}`}
                                 >
-                                  <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                                  <p className="font-bold text-md text-gray-400 hover:text-red-600">
                                     View all
                                   </p>
                                 </Link>
                               </div>
                             )}
-                            <div className="flex overflow-x-auto">
+                            <div className="flex overflow-x-hidden">
                               {(populars[4]?.data?.data?.products || []).map(
                                 (product, index) => {
                                   return (
@@ -507,7 +505,7 @@ const Home = () => {
                             Recently viewed 🔥
                           </p>
                           <Link to={`/search-product`}>
-                            <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                            <p className="font-bold text-md text-gray-400 hover:text-red-600">
                               View all
                             </p>
                           </Link>
@@ -539,12 +537,12 @@ const Home = () => {
                           Merchants you will love
                         </p>
                         <Link to={paths.MERCHANTS}>
-                          <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                          <p className="font-bold text-md text-gray-400 hover:text-red-600">
                             View all
                           </p>
                         </Link>
                       </div>
-                      <div className="flex flex-nowrap overflow-x-auto gap-2">
+                      <div className="flex flex-nowrap overflow-x-hidden gap-2">
                         {(stores || []).slice(0, 8).map((store, index) =>
                           Auth.isAuthenticated() ? (
                             <Link
@@ -584,7 +582,7 @@ const Home = () => {
                           Discover
                         </p>
                         <Link to={paths.DISCOVER}>
-                          <p className="font-bold text-lg text-gray-400 hover:text-red-600">
+                          <p className="font-bold text-md text-gray-400 hover:text-red-600">
                             View all
                           </p>
                         </Link>
@@ -622,7 +620,7 @@ const Home = () => {
             {backdropComponent}
           </div>
 
-          <div className="overflow-y-auto pt-28 pb-8 px-2">
+          <div className="overflow-y-hidden pt-28 pb-8 px-2">
             <div className="my-4 mt-14">
               <Carousel autoPlay swipeable showThumbs={false}>
                 <img src={caro1} />
@@ -641,7 +639,7 @@ const Home = () => {
                   View all
                 </Link>
               </div> */}
-              {/* <div id="contentMobile" className="py-2 overflow-x-auto">
+              {/* <div id="contentMobile" className="py-2 overflow-x-hidden">
                 {(categories || []).map((category, index) => (
                   <p
                     key={index}
@@ -667,7 +665,7 @@ const Home = () => {
                 ))}
               </div> */}
 
-              {/* <div className="flex py-4 overflow-x-auto">
+              {/* <div className="flex py-4 overflow-x-hidden">
                 {(products || []).map((product, index) => (
                   <Card1Mobile
                     img={product.product_media[0]?.url || Dcart}
@@ -699,7 +697,7 @@ const Home = () => {
                       </Link>
                     </div>
                   )}
-                  <div className="flex py-4 overflow-x-auto">
+                  <div className="flex py-4 overflow-x-hidden">
                     {(populars[0]?.data?.data?.products || []).map(
                       (product, index) => {
                         return (
@@ -732,7 +730,7 @@ const Home = () => {
                       </Link>
                     </div>
                   )}
-                  <div className="flex py-4 overflow-x-auto">
+                  <div className="flex py-4 overflow-x-hidden">
                     {(populars[1]?.data?.data?.products || []).map(
                       (product, index) => {
                         return (
@@ -765,7 +763,7 @@ const Home = () => {
                       </Link>
                     </div>
                   )}
-                  <div className="flex py-4 overflow-x-auto">
+                  <div className="flex py-4 overflow-x-hidden">
                     {(populars[2]?.data?.data?.products || []).map(
                       (product, index) => {
                         return (
@@ -798,7 +796,7 @@ const Home = () => {
                       </Link>
                     </div>
                   )}
-                  <div className="flex py-4 overflow-x-auto">
+                  <div className="flex py-4 overflow-x-hidden">
                     {(populars[3]?.data?.data?.products || []).map(
                       (product, index) => {
                         return (
@@ -831,7 +829,7 @@ const Home = () => {
                       </Link>
                     </div>
                   )}
-                  <div className="flex py-4 overflow-x-auto">
+                  <div className="flex py-4 overflow-x-hidden">
                     {(populars[4]?.data?.data?.products || []).map(
                       (product, index) => {
                         return (
@@ -851,7 +849,7 @@ const Home = () => {
               </div>
             )}
 
-            <div className="flex overflow-x-auto my-4 gap-2 h-full">
+            <div className="flex overflow-x-hidden my-4 gap-2 h-full">
               {(categories || [])
                 .filter((category) => category.name == 'Vehicles')
                 .map((id, i) => (
@@ -892,7 +890,7 @@ const Home = () => {
                   </p>
                 </div>
 
-                <div className="flex py-4 overflow-x-auto">
+                <div className="flex py-4 overflow-x-hidden">
                   {(recentlyViewed || []).map((product, index) => (
                     <Card1Mobile
                       img={product.product.product_media[0]?.url || Dcart}
@@ -919,7 +917,7 @@ const Home = () => {
                   View all
                 </Link>
               </div>
-              <div className="flex gap-2 overflow-x-auto">
+              <div className="flex gap-2 overflow-x-hidden">
                 {(stores || []).slice(0, 6).map((store, index) => (
                   <Link
                     to={
@@ -950,7 +948,7 @@ const Home = () => {
                 </Link>
               </div>
 
-              <div className="flex overflow-x-auto">
+              <div className="flex overflow-x-hidden">
                 {(discoveries || []).slice(0, 5).map((discover, index) => (
                   <p key={index}>
                     <CardDiscover

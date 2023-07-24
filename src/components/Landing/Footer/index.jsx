@@ -82,12 +82,12 @@ function Footer() {
             </h2>
             <ul className="text-white dark:text-gray-400">
               <li className="mb-4">
-                <Link to="#" className="hover:underline ">
+                <Link to="https://www.facebbok.com/ekohub_ng/" className="hover:underline ">
                   Facebook
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:underline">
+                <Link to="https://www.instagram.com/ekohub_ng/" className="hover:underline">
                   Instagram
                 </Link>
               </li>
