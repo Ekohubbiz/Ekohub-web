@@ -599,7 +599,7 @@ const Product = () => {
                                     : setShowModalAuth(true)
                                 }
                               >
-                                Call Merchant
+                                Call Seller
                               </p>
                               <a
                                 href={`tel:${product?.store?.phone || ''}`}
@@ -619,7 +619,7 @@ const Product = () => {
                               >
                                 <img src={Text} alt="" className="w-4" />
                                 <p className="text-white text-base ml-2">
-                                  Chat Merchant
+                                   Message
                                 </p>
                               </div>
                             )}
@@ -1265,7 +1265,7 @@ const Product = () => {
                             : navigate('/signin')
                         }
                       >
-                        Call Merchant
+                        Call Seller
                       </p>
                       <a
                         href={`tel:${product?.store?.phone || ''}`}
@@ -1287,7 +1287,7 @@ const Product = () => {
                   >
                     <img src={Text} alt="" className="w-4 h-4" />
                     <p to={paths.MESSAGES} className="text-white text-sm ml-2">
-                      Chat Merchant
+                      Message
                     </p>
                   </div>
                 )}
