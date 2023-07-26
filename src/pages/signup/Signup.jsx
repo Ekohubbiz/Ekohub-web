@@ -87,8 +87,7 @@ function Signup() {
                       Sign up
                     </p>
                     <p className="text-slate-700 pb-4">
-                      Hello stranger, let’s get to know you more. Create and
-                      account with your verified information
+                      Create your free account
                     </p>
                     <div>
                       <form onSubmit={handleSignup}>
@@ -233,8 +232,7 @@ function Signup() {
             <div className="bg-red-600 w-full rounded-b-3xl flex flex-col justify-center items-start p-4 py-16">
               <p className="text-3xl text-white font-bold pb-4">Sign up</p>
               <p className="text-white pb-4">
-                Hello stranger, let’s get to know you more. Create and account
-                with your verified information
+              Create your free account
               </p>
             </div>
             <div className="px-2 py-8 pb-20">
