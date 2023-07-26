@@ -172,7 +172,7 @@ const NavBar = () => {
                 <Link
                   to={paths.PROFILE}
                   state={{ nav: 'uploadads' }}
-                  className="text-red-500 bg-white border border-red-500 focus:outline-none hover:bg-red-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                  className="md:mr-0 md:block focus:outline-none text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-3 py-2.5 ml-1 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-red-900"
                 >
                   <span className="sr-only">Open user menu</span>
                   Post an Ad
