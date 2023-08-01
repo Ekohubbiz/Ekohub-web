@@ -338,7 +338,7 @@ const Product = () => {
           name="description"
           content={
             product?.description ||
-            'Your online market place to buy and sell anything anywhere.'
+            'Shop online a wide range of top-quality products from electronics, phones, and computers to fashion, shoes, household equipment, babies and kids items, toys, furniture, groceries, sport and fitness gear, properties, and more - all from the best brands in the market. Ekohub online shopping'
           }
         />
         <meta property="og:image" content={productImages[0]?.thumbnail || ''} />
@@ -350,7 +350,7 @@ const Product = () => {
             name="description"
             content={
               product?.description ||
-              'Your online market place to buy and sell anything anywhere.'
+              'Shop online a wide range of top-quality products from electronics, phones, and computers to fashion, shoes, household equipment, babies and kids items, toys, furniture, groceries, sport and fitness gear, properties, and more - all from the best brands in the market. Ekohub online shopping'
             }
           />
           <meta
@@ -1033,7 +1033,7 @@ const Product = () => {
             name="description"
             content={
               product?.description ||
-              'Your online market place to buy and sell anything anywhere.'
+              'Shop online a wide range of top-quality products from electronics, phones, and computers to fashion, shoes, household equipment, babies and kids items, toys, furniture, groceries, sport and fitness gear, properties, and more - all from the best brands in the market. Ekohub online shopping'
             }
           />
           <meta name="keywords" content={product?.name || 'Ekohub'} />

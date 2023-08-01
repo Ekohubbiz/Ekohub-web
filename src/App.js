@@ -29,7 +29,13 @@ const App = () => {
     }
     firebase.auth().signInAnonymously();
   }, []);
-  usePageMeta("Ekohub", "Shop online a wide range of top-quality products from electronics, phones, and computers to fashion, shoes, household equipment, babies and kids items, toys, furniture, groceries, sport and fitness gear, properties, and more - all from the best brands in the market. Ekohub online shopping",
+  usePageMeta(`
+  Ekohub", "Shop online a wide range of top-quality products from electronics, phones, and computers to fashion, shoes, household equipment, babies and kids items, toys, furniture, groceries, sport and fitness gear, properties, and more - all from the best brands in the market. Ekohub online shopping
+  
+  Look no further than Ekohub online shopping! We offer a vast range of top-quality products, including electronics, phones, and computers, fashion, shoes, household equipment, babies and kids items, toys, furniture, groceries, sport and fitness gear, properties, and more - all sourced from the best brands in the market.
+
+  Ekohub.ng is an online shopping website with properties and houses in Nigeria for rent and for sale. We provide very affordable property for sale and rental in Nigeria. These include homes, houses, land, shops, offices and other commercial properties to buy or rent.
+  `,
    `
 Clothing, Shoes, Electronics, Home appliances, Furniture, Jewelry
 Watches, Beauty products, Personal care products, Sports equipment, Outdoor gear
