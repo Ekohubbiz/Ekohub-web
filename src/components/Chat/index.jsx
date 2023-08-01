@@ -224,7 +224,7 @@ export const Chat = ({ storeChatsGroups, myChatGroups }) => {
                                     <img
                                       className="w-14 h-14 rounded-full"
                                       src={ch?.users[1]?.picture}
-                                      alt="chatimage"
+                                      alt="shop"
                                     />
                                   ) : (
                                     <p className="text-lg text-white font-bold">
@@ -319,7 +319,7 @@ export const Chat = ({ storeChatsGroups, myChatGroups }) => {
                           <div className="flex m-1 items-center">
                             <img
                               src={selectedChat?.users[1]?.picture || Avatar}
-                              alt=""
+                              alt="Shop Clothing"
                               className="h-14 rounded-xl"
                             />
                             <div className="ml-4">
@@ -397,7 +397,7 @@ export const Chat = ({ storeChatsGroups, myChatGroups }) => {
                                   <div className="flex m-1 items-center">
                                     <img
                                       src={msg?.content?.picture}
-                                      alt=""
+                                      alt="Shop Shoes"
                                       className="h-14 rounded-xl"
                                     />
                                     <div className="ml-4">
@@ -478,10 +478,10 @@ export const Chat = ({ storeChatsGroups, myChatGroups }) => {
                       )}
 
                       {/* <button className="p-2 m-2 border border-slate-200 rounded-xl drop-shadow-md ">
-                            <img src={Camera} alt="" className="w-6 rounded-xl" />
+                            <img src={Camera} alt="shop online at ekohub" className="w-6 rounded-xl" />
                           </button>
                           <button className="p-2 m-2 border border-slate-200 rounded-xl drop-shadow-md ">
-                            <img src={Mic} alt="" className="w-6 rounded-xl" />
+                            <img src={Mic} alt="shop online at ekohub" className="w-6 rounded-xl" />
                           </button> */}
                     </div>
                   </div>
@@ -583,7 +583,7 @@ export const Chat = ({ storeChatsGroups, myChatGroups }) => {
                     <div className="flex m-1 items-center">
                       <img
                         src={selectedChat?.users[1]?.picture || Avatar}
-                        alt=""
+                        alt="shop Electronics"
                         className="h-14 rounded-full"
                       />
                       <div className="ml-4">
@@ -648,7 +648,7 @@ export const Chat = ({ storeChatsGroups, myChatGroups }) => {
                                 <div className="flex m-1 items-center">
                                   <img
                                     src={msg?.content?.picture}
-                                    alt=""
+                                    alt="shop Furniture"
                                     className="h-14 rounded-xl"
                                   />
                                   <div className="ml-4">
@@ -802,7 +802,7 @@ export const Chat = ({ storeChatsGroups, myChatGroups }) => {
                                   <img
                                     className="w-14 h-14 rounded-full"
                                     src={ch?.users[1]?.picture}
-                                    alt="chatimage"
+                                    alt="shop Toys"
                                   />
                                 ) : (
                                   <p className="text-lg text-white font-bold">
@@ -852,7 +852,7 @@ export const Chat = ({ storeChatsGroups, myChatGroups }) => {
                                   <img
                                     className="w-14 h-14 rounded-full"
                                     src={ch?.users[0]?.picture}
-                                    alt="chatimage"
+                                    alt="shop date wears"
                                   />
                                 ) : (
                                   <p className="text-lg text-white font-bold">

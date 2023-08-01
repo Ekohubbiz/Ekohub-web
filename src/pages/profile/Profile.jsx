@@ -60,7 +60,7 @@ const Profile = () => {
                       <div className="flex flex-nowrap items-center">
                         <img
                           src={user?.profile_pic_url || Avatar}
-                          alt=""
+                          alt="shop online at ekohub"
                           className="w-14 h-14 mr-4 rounded-full"
                         />
                         <p className="text-base font-bold">
@@ -88,7 +88,7 @@ const Profile = () => {
                         <div className="flex">
                           <span className="px-4">Account</span>
                         </div>
-                        <img src={Arrow} alt="" className="w-5" />
+                        <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                       </div>
                       {storeOwner ? (
                         <div
@@ -101,7 +101,7 @@ const Profile = () => {
                           <div className="flex">
                             <span className="px-4">Product</span>
                           </div>
-                          <img src={Arrow} alt="" className="w-5" />
+                          <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                         </div>
                       ) : (
                         <Link to={paths.SELLING_AUTH}>
@@ -115,7 +115,7 @@ const Profile = () => {
                             <div className="flex">
                               <span className="px-4">Start selling</span>
                             </div>
-                            <img src={Arrow} alt="" className="w-5" />
+                            <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                           </div>
                         </Link>
                       )}
@@ -130,7 +130,7 @@ const Profile = () => {
                           <div className="flex">
                             <span className="px-4">Upload Ads</span>
                           </div>
-                          <img src={Arrow} alt="" className="w-5" />
+                          <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                         </div>
                       )}
                       <div
@@ -143,7 +143,7 @@ const Profile = () => {
                         <div className="flex">
                           <span className="px-4">Favourites</span>
                         </div>
-                        <img src={Arrow} alt="" className="w-5" />
+                        <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                       </div>
                       <div
                         onClick={() => setActive('notification')}
@@ -156,7 +156,7 @@ const Profile = () => {
                         <div className="flex">
                           <span className="px-4">Notification</span>
                         </div>
-                        <img src={Arrow} alt="" className="w-5" />
+                        <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                       </div>
                       <div
                         onClick={() => setActive('blacklist')}
@@ -168,7 +168,7 @@ const Profile = () => {
                         <div className="flex">
                           <span className="px-4">Store Blacklist</span>
                         </div>
-                        <img src={Arrow} alt="" className="w-5" />
+                        <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                       </div>
                       <div
                         onClick={() => setActive('faq')}
@@ -180,7 +180,7 @@ const Profile = () => {
                         <div className="flex">
                           <span className="px-4">FAQ</span>
                         </div>
-                        <img src={Arrow} alt="" className="w-5" />
+                        <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                       </div>
                       <div
                         onClick={logout}
@@ -189,7 +189,7 @@ const Profile = () => {
                         <div className="flex">
                           <span className="px-4 text-red-400">Log out</span>
                         </div>
-                        <img src={Arrow} alt="" className="w-5" />
+                        <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                       </div>
                     </div>
                   </div>
@@ -222,14 +222,14 @@ const Profile = () => {
           <div className="">
             <div className="relative sticky top-0 z-50">
               <div className="flex justify-center">
-                <img src={Logo} className="absolute top-4  h-7" alt="" />
+                <img src={Logo} className="absolute top-4  h-7" alt="shop online at ekohub" />
               </div>
               <div className="pimg bg-red-500 w-full rounded-b-3xl flex flex-col justify-center items-start p-4 py-8 ">
                 <div className="flex items-center pt-4">
                   <>
                     <img
                       src={Avatar}
-                      alt=""
+                      alt="shop online at ekohub"
                       className="w-16 h-16 rounded-full"
                     />
                     <p className="text-base font-bold text-white ml-2">
@@ -265,7 +265,7 @@ const Profile = () => {
                     <div className="flex">
                       <span className="px-4">Account</span>
                     </div>
-                    <img src={Arrow} alt="" className="w-5" />
+                    <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                   </div>
                   {storeOwner ? (
                     <div
@@ -278,7 +278,7 @@ const Profile = () => {
                       <div className="flex">
                         <span className="px-4">Product</span>
                       </div>
-                      <img src={Arrow} alt="" className="w-5" />
+                      <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                     </div>
                   ) : (
                     <Link to={paths.SELLING_AUTH}>
@@ -291,7 +291,7 @@ const Profile = () => {
                         <div className="flex">
                           <span className="px-4">Start selling</span>
                         </div>
-                        <img src={Arrow} alt="" className="w-5" />
+                        <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                       </div>
                     </Link>
                   )}
@@ -306,7 +306,7 @@ const Profile = () => {
                       <div className="flex">
                         <span className="px-4">Upload Ads</span>
                       </div>
-                      <img src={Arrow} alt="" className="w-5" />
+                      <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                     </div>
                   )}
                   {storeOwner && (
@@ -320,7 +320,7 @@ const Profile = () => {
                       <div className="flex">
                         <span className="px-4">Feedbacks</span>
                       </div>
-                      <img src={Arrow} alt="" className="w-5" />
+                      <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                     </div>
                   )}
                   <div
@@ -333,7 +333,7 @@ const Profile = () => {
                     <div className="flex">
                       <span className="px-4">Favourites</span>
                     </div>
-                    <img src={Arrow} alt="" className="w-5" />
+                    <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                   </div>
                   <div
                     onClick={() => setActive('notification')}
@@ -345,7 +345,7 @@ const Profile = () => {
                     <div className="flex">
                       <span className="px-4">Notification</span>
                     </div>
-                    <img src={Arrow} alt="" className="w-5" />
+                    <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                   </div>
                   <div
                     onClick={() => setActive('faq')}
@@ -357,7 +357,7 @@ const Profile = () => {
                     <div className="flex">
                       <span className="px-4">FAQ</span>
                     </div>
-                    <img src={Arrow} alt="" className="w-5" />
+                    <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                   </div>
                   <div
                     onClick={() => setActive('blacklist')}
@@ -369,7 +369,7 @@ const Profile = () => {
                     <div className="flex">
                       <span className="px-4">Store Blacklist</span>
                     </div>
-                    <img src={Arrow} alt="" className="w-5" />
+                    <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                   </div>
                   <div
                     onClick={logout}
@@ -378,7 +378,7 @@ const Profile = () => {
                     <div className="flex">
                       <span className="px-4 text-red-400">Log out</span>
                     </div>
-                    <img src={Arrow} alt="" className="w-5" />
+                    <img src={Arrow} alt="shop online at ekohub" className="w-5" />
                   </div>
                 </div>
               )}

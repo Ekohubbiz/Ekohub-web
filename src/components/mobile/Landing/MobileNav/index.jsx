@@ -23,11 +23,11 @@ const MobileNav = ({
       {location.pathname === '/' && (
         <div className="flex justify-between items-center flex-nowrap py-1">
           <div className="cursor-pointer" onClick={sideDrawer}>
-            <img src={Menu} className="" alt="" />
+            <img src={Menu} className="" alt="shop online at Ekohub" />
           </div>
-          <img src={Logo} className="" alt="" />
+          <img src={Logo} className="" alt="shop online at Ekohub" />
           <Link to={paths.PROFILE} state={{ nav: 'notification' }}>
-            <img src={MBell} className="" alt="" />
+            <img src={MBell} className="" alt="shop online at Ekohub" />
           </Link>
         </div>
       )}
@@ -36,16 +36,16 @@ const MobileNav = ({
         <div className="flex justify-between items-center flex-nowrap py-1">
           <div className="flex items-center">
             <div className="cursor-pointer" onClick={sideDrawer}>
-              <img src={Mmenu} className="" alt="" />
+              <img src={Mmenu} className="" alt="shop online at Ekohub" />
             </div>
             {/* <p className="text-base text-gray-700 font-bold ml-1">{route}</p> */}
           </div>
-          <img src={Logo} className="" alt="" />
+          <img src={Logo} className="" alt="shop online at Ekohub" />
           <Link to={paths.PROFILE} state={{ nav: 'notification' }}>
-            <img src={MBell} className="" alt="" />
+            <img src={MBell} className="" alt="shop online at Ekohub" />
           </Link>
           {/* <div className="cursor-pointer" onClick={toggleFilter}>
-            <img src={Mfilter} className="" alt="" />
+            <img src={Mfilter} className="" alt="shop online at Ekohub" />
           </div> */}
         </div>
       )}

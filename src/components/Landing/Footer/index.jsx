@@ -12,7 +12,7 @@ function Footer() {
       <div className="md:flex md:justify-center lg:py-14">
         <div className="mb-6 md:mb-0 md:mr-8 text-white">
           <Link to={paths.HOME} className="flex items-center">
-            <img src={Logo2} className="w-44" alt="connect Logo" />
+            <img src={Logo2} className="w-44" alt="Ekohub" />
           </Link>
           <p className="font-thin pt-4">Your online market place to buy and</p>
           <p className="font-thin pb-4">sell anything anywhere.</p>

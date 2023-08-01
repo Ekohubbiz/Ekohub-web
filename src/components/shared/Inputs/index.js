@@ -7,7 +7,7 @@ import Eye from '../../../assets/icons/eye.svg';
 //     <div className="relative drop-shadow-sm py-2">
 //       {icon && (
 //         <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-//           <img src={icon} alt="" className="w-6 h-5 object-contain" />
+//           <img src={icon} alt="shop online at ekohub" className="w-6 h-5 object-contain" />
 //         </div>
 //       )}
 //       <input
@@ -20,7 +20,7 @@ import Eye from '../../../assets/icons/eye.svg';
 //       />
 //       {type === 'password' && (
 //         <div className="absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5">
-//           <img src={Eye} className="w-5 h-4 mr-2 -ml-1 object-contain" alt="" />
+//           <img src={Eye} className="w-5 h-4 mr-2 -ml-1 object-contain" alt="shop online at ekohub" />
 //         </div>
 //       )}
 //     </div>
@@ -45,7 +45,7 @@ const Input1 = React.forwardRef(
       <div className="relative drop-shadow-sm py-2">
         {icon && (
           <span className="absolute inset-y-0 left-0 flex items-center pl-2 pr-6 cursor-pointer">
-            <img src={icon} alt="" className="w-6 h-5 object-contain" />
+            <img src={icon} alt="shop online at ekohub" className="w-6 h-5 object-contain" />
           </span>
         )}
         <input
@@ -65,7 +65,7 @@ const Input1 = React.forwardRef(
             <img
               src={passIcon}
               className="w-5 h-4 mr-2 -ml-1 object-contain"
-              alt=""
+              alt="shop online at ekohub"
             />
           </div>
         )}
@@ -80,7 +80,7 @@ const Input1M = React.forwardRef(
       <div className="relative drop-shadow-sm mx-2">
         {icon && (
           <span className="absolute inset-y-0 left-0 flex items-center pl-2">
-            <img src={icon} alt="" className="w-6 h-5 object-contain" />
+            <img src={icon} alt="shop online at ekohub" className="w-6 h-5 object-contain" />
           </span>
         )}
         <input
@@ -97,7 +97,7 @@ const Input1M = React.forwardRef(
             <img
               src={Eye}
               className="w-5 h-4 mr-2 -ml-1 object-contain"
-              alt=""
+              alt="shop online at ekohub"
             />
           </div>
         )}
@@ -110,7 +110,7 @@ function Input2({ icon, type, placeholder, onChange, className, ...props }) {
   return (
     <div className="w-80 w-full relative mr-3 md:mr-0 md:block">
       <span className="absolute inset-y-0 left-0 flex items-center pl-2">
-        <img src={icon} alt="" className="w-6 h-5 object-contain" />
+        <img src={icon} alt="shop online at ekohub" className="w-6 h-5 object-contain" />
       </span>
       <input
         type={type}
@@ -132,7 +132,7 @@ function InputM({ icon, type, placeholder, onChange, className, ...props }) {
     <div className="w-full relative mr-3 md:mr-0 md:block">
       <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
         {icon && (
-          <img src={icon} alt="" className="w-6 h-5 mb-2 object-contain" />
+          <img src={icon} alt="shop online at ekohub" className="w-6 h-5 mb-2 object-contain" />
         )}
       </div>
       <input

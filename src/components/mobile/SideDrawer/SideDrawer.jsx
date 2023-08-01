@@ -16,7 +16,7 @@ const SideDrawer = ({ clickCatIcon, show, data = [] }) => {
           <div>
             <div className="flex justify-center p-8">
               <div className="cursor-pointer" onClick={clickCatIcon}>
-                <img src={Caticon} className="" alt="" />
+                <img src={Caticon} className="" alt="shop online at Ekohub" />
               </div>
               <p className="mx-2 text-xl font-semibold">Categories</p>
             </div>

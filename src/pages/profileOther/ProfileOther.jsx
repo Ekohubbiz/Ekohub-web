@@ -90,7 +90,7 @@ const ProfileOther = () => {
                     <div className="flex flex-nowrap items-center">
                       <img
                         src={stores?.cover_image_url || Avatar}
-                        alt=""
+                        alt="shop online at Ekohub"
                         className="w-14 h-14 rounded-full mr-4"
                       />
                       <p className="text-base font-bold">{stores?.name}</p>
@@ -202,14 +202,14 @@ const ProfileOther = () => {
           <div className="">
             <div className="sticky top-0 z-50">
               <div className="flex justify-center">
-                <img src={Logo} className="absolute top-4  h-6" alt="" />
+                <img src={Logo} className="absolute top-4  h-6" alt="shop online at Ekohub" />
               </div>
               <div className="pimg bg-red-500 w-full rounded-b-3xl flex flex-col justify-center items-start p-4 py-4">
                 <div className="flex justify-between items-center my-2 pt-8 w-full">
                   <div className="flex items-center">
                     <img
                       src={stores?.cover_image_url || Avatar}
-                      alt=""
+                      alt="shop online at Ekohub"
                       className="w-16 h-16 rounded-full mr-2"
                     />
                     <p className="text-md font-bold text-white">

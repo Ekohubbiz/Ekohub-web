@@ -60,7 +60,7 @@ const Checkout = () => {
                       {/* <img
                         src={ProductImg}
                         className="object-contain w-full rounded-lg"
-                        alt=""
+                        alt="shop online at ekohub"
                       /> */}
                       <div className="">
                         <ImageGallery
@@ -74,7 +74,7 @@ const Checkout = () => {
 
                       <div className="py-4">
                         <div className="flex">
-                          <img src={Star} alt="" className="h-3" />
+                          <img src={Star} alt="shop online at ekohub" className="h-3" />
                           <span className="reviewtext pl-1">
                             5.0 (2 reviews)
                           </span>
@@ -159,7 +159,7 @@ const Checkout = () => {
                     <p className="py-4 text-base font-semibold">Reviews</p>
                     <div className="flex justify-between">
                       <div className="flex py-2">
-                        <img src={Star} alt="" className="h-3" />
+                        <img src={Star} alt="shop online at ekohub" className="h-3" />
                         <span className="text-xs pl-1 font-thin">
                           5.0 ({(product.product_reviews || []).length} reviews)
                         </span>
@@ -185,7 +185,7 @@ const Checkout = () => {
                             <div className="flex py-2 items-center">
                               <img
                                 src={review?.user?.profile_pic_url || Avatar}
-                                alt=""
+                                alt="shop online at ekohub"
                                 className="h-10 pr-4"
                               />
                               <p className="text-base font-semibold">

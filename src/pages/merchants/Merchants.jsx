@@ -143,7 +143,7 @@ const Merchants = () => {
                                   <img
                                     key={index}
                                     src={store?.cover_image_url || Dcart}
-                                    alt=""
+                                    alt="shop online at ekohub"
                                     className="w-36 h-36 rounded-full"
                                   />
                                   <div className="my-2">
@@ -171,7 +171,7 @@ const Merchants = () => {
                                 <img
                                   key={index}
                                   src={store?.cover_image_url || Dcart}
-                                  alt=""
+                                  alt="shop online at ekohub"
                                   className="w-36 h-36 rounded-full"
                                 />
                                 <div className="my-2">
@@ -206,7 +206,7 @@ const Merchants = () => {
                                   <img
                                     key={index}
                                     src={store?.cover_image_url || Dcart}
-                                    alt=""
+                                    alt="shop online at ekohub"
                                     className="w-36 h-36 rounded-full"
                                   />
                                   <div className="my-2">
@@ -234,7 +234,7 @@ const Merchants = () => {
                                 <img
                                   key={index}
                                   src={store?.cover_image_url || Dcart}
-                                  alt=""
+                                  alt="shop online at ekohub"
                                   className="w-36 h-36 rounded-full"
                                 />
                                 <div className="my-2">
@@ -301,7 +301,7 @@ const Merchants = () => {
                       <div className="bg-white rounded-2xl m-2 p-2 drop-shadow-sm flex">
                         <img
                           src={store?.cover_image_url || Dcart}
-                          alt=""
+                          alt="shop online at ekohub"
                           className="w-24 h-24 rounded-full mr-4"
                         />
                         <div className="my-2">
@@ -323,7 +323,7 @@ const Merchants = () => {
                     <div className="bg-white rounded-2xl m-2 p-2 drop-shadow-sm flex">
                       <img
                         src={store?.cover_image_url || Dcart}
-                        alt=""
+                        alt="shop online at ekohub"
                         className="w-24 h-24 rounded-full mr-4"
                       />
                       <div className="my-2">
@@ -352,7 +352,7 @@ const Merchants = () => {
                     <div className="bg-white rounded-2xl m-2 p-2 drop-shadow-sm flex">
                       <img
                         src={store?.cover_image_url || Dcart}
-                        alt=""
+                        alt="shop online at ekohub"
                         className="w-24 h-24 rounded-full mr-4"
                       />
                       <div className="my-2">

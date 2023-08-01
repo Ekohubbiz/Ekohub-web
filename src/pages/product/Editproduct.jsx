@@ -193,7 +193,7 @@ const EditProduct = () => {
                     <div className="flex flex-nowrap items-center">
                       <img
                         src={user?.profile_pic_url || Avatar}
-                        alt=""
+                        alt="shop online at ekohub"
                         className="w-14 h-14 mr-4 rounded-full"
                       />
                       <p className="text-base font-bold">{user?.first_name}</p>
@@ -376,7 +376,7 @@ const EditProduct = () => {
                                       >
                                         <img
                                           src={image}
-                                          alt=""
+                                          alt="shop online at ekohub"
                                           className="w-24 h-24 rounded-lg"
                                         />
                                         <p
@@ -708,7 +708,7 @@ const EditProduct = () => {
                   <>
                     <img
                       src={Avatar}
-                      alt=""
+                      alt="shop online at ekohub"
                       className="w-16 h-16 rounded-full"
                     />
                     <p className="text-base font-bold text-white ml-2">
@@ -876,7 +876,7 @@ const EditProduct = () => {
                                 <div key={i} className="flex justify-center">
                                   <img
                                     src={image}
-                                    alt=""
+                                    alt="shop online at ekohub"
                                     className="w-24 h-24 rounded-lg"
                                   />
                                   <p

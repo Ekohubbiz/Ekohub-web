@@ -313,7 +313,7 @@ const UploadAds = ({}) => {
                         <p key={i} className="flex justify-center">
                           <img
                             src={image}
-                            alt=""
+                            alt="shop online at ekohub"
                             className="w-24 h-24 rounded-lg"
                           />
                           <p

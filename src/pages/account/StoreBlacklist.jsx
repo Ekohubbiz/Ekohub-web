@@ -47,7 +47,7 @@ const StoreBlacklist = () => {
             <div className="flex items-center">
               <img
                 src={store?.cover_image_url || Dcart}
-                alt=""
+                alt="shop online at ekohub"
                 className="w-24 h-24 rounded-full mr-4"
               />
               <div className="my-2">

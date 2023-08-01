@@ -84,7 +84,7 @@ function SellingAuth() {
               <div className="grid grid-cols-5 gap-8 pt-4">
                 <div className="relative col-span-3 rounded-2xl">
                   <div className="absolute top-4 right-2 w-full h-full flex flex-col justify-center items-center">
-                    <i mg src={Logo2} className="" alt="" />
+                    <i mg src={Logo2} className="" alt="shop online at ekohub" />
                     <p className="text-white font-bold text-5xl">
                       Buy and sell
                     </p>
@@ -95,7 +95,7 @@ function SellingAuth() {
                   <img
                     src={BgSell}
                     className="object-contain w-full rounded-2xl"
-                    alt=""
+                    alt="shop online at ekohub"
                   />
                 </div>
 
@@ -125,7 +125,7 @@ function SellingAuth() {
                                       URL.createObjectURL(selectedImage)) ||
                                     Avatar
                                   }
-                                  alt=""
+                                  alt="shop online at ekohub"
                                   className="w-24 h-24 rounded-lg"
                                 />
                                 <p
@@ -263,7 +263,7 @@ function SellingAuth() {
                                 URL.createObjectURL(selectedImage)) ||
                               Avatar
                             }
-                            alt=""
+                            alt="shop online at ekohub"
                             className="w-24 h-24 rounded-lg"
                           />
                           <p

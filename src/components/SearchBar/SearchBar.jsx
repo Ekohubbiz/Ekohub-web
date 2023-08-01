@@ -51,7 +51,7 @@ const SearchBar = ({ toggleFilter }) => {
         onClick={window.location.pathname === '/' ? searchItem : toggleFilter}
         className="bg-white rounded-xl px-3"
       >
-        <img src={Filter} alt="" className="" />
+        <img src={Filter} alt="shop online at Ekohub" className="" />
       </button>
     </div>
   );

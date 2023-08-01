@@ -19,14 +19,14 @@ function Card1({ img, title, location, price, like, to = '#' }) {
     <Link to={to}>
       <div className="card1 relative bg-white rounded-xl w-40 m-2 drop-shadow-sm hover:drop-shadow-xl">
         {like ? (
-          <img src={Liked} className="absolute top-4 right-2" alt="" />
+          <img src={Liked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
         ) : (
-          <img src={Unliked} className="absolute top-4 right-2" alt="" />
+          <img src={Unliked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
         )}
         <img
           className="rounded-t-2xl object-cover h-40"
           src={img || Dcart}
-          alt=""
+          alt="shop online at Ekohub"
           width="400"
           height="400"
         />
@@ -46,14 +46,14 @@ function Card1Mobile({ img, title, location, price, like, to = '#' }) {
     <Link to={to}>
       <div className="card1 relative bg-white rounded-xl w-40 m-2 drop-shadow-sm hover:drop-shadow-xl">
         {like ? (
-          <img src={Liked} className="absolute top-4 right-2" alt="" />
+          <img src={Liked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
         ) : (
-          <img src={Unliked} className="absolute top-4 right-2" alt="" />
+          <img src={Unliked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
         )}
         <img
           className="rounded-t-2xl object-cover h-32"
           src={img || Dcart}
-          alt=""
+          alt="shop online at Ekohub"
           width="400"
           height="400"
         />
@@ -73,21 +73,21 @@ function Card2({ img, title, location, price, like, to = '#', call, chat }) {
   return (
     <div className="card2 lg:w-64 md:w-48 w-64 relative bg-white rounded-2xl lg:m-2 md:m-1 m-1 drop-shadow-md  hover:drop-shadow-xl">
       {like ? (
-        <img src={Liked} className="absolute top-4 right-2" alt="" />
+        <img src={Liked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
       ) : (
-        <img src={Unliked} className="absolute top-4 right-2" alt="" />
+        <img src={Unliked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
       )}
       <Link to={to}>
         <img
           className="rounded-t-2xl object-cover w-full lg:h-52 md:h-48 h-44"
           src={img}
-          alt=""
+          alt="shop online at Ekohub"
         />
       </Link>
       <div className="p-2">
         <Link to={to}>
           <div className="flex pb-2">
-            <img src={Star} alt="" />
+            <img src={Star} alt="shop online at Ekohub" />
             <span className="reviewtext pl-1">5.0 (2 reviews)</span>
           </div>
           <p className="pb-1 text-sm">{truncate(title, 25)}</p>
@@ -102,12 +102,12 @@ function Card2({ img, title, location, price, like, to = '#', call, chat }) {
           onClick={chat}
           className="w-1/2 border-r flex justify-center items-center p-2 cursor-pointer"
         >
-          <img src={Text} alt="" className="w-4" />
+          <img src={Text} alt="shop online at Ekohub" className="w-4" />
           <p className="text-sm ml-2">CHAT</p>
         </div>
 
         <div className="w-1/2 border-l flex justify-center items-center p-2 cursor-pointer">
-          <img src={Call} alt="" className="w-4" />
+          <img src={Call} alt="shop online at Ekohub" className="w-4" />
           {Auth.isAuthenticated() ? (
             <a href={`tel:${call}`} className="text-sm ml-2">
               CALL
@@ -135,9 +135,9 @@ function Card2Profile({
   return (
     <div className="card2 w-72 md:w-48 relative bg-white rounded-2xl m-2 drop-shadow-md  hover:drop-shadow-xl">
       {/* {like ? (
-        <img src={Liked} className="absolute top-4 right-2" alt="" />
+        <img src={Liked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
       ) : (
-        <img src={Unliked} className="absolute top-4 right-2" alt="" />
+        <img src={Unliked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
       )} */}
       {status ? (
         <div
@@ -161,13 +161,13 @@ function Card2Profile({
         <img
           className="rounded-t-2xl object-cover w-full h-52"
           src={img}
-          alt=""
+          alt="shop online at Ekohub"
         />
       </Link>
       <div className="p-2">
         <Link to={to}>
           <div className="flex pb-2">
-            <img src={Star} alt="" />
+            <img src={Star} alt="shop online at Ekohub" />
             <span className="reviewtext pl-1">5.0 (2 reviews)</span>
           </div>
           <p className="pb-1 text-sm">{truncate(title, 25)}</p>
@@ -199,9 +199,9 @@ function Card2M({ img, title, location, price, like, to = '#', call, chat }) {
   return (
     <div className="card2M w-full relative bg-white rounded-2xl my-4 drop-shadow-lg z-25  hover:drop-shadow-xl">
       {like ? (
-        <img src={Liked} className="absolute top-4 right-2" alt="" />
+        <img src={Liked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
       ) : (
-        <img src={Unliked} className="absolute top-4 right-2" alt="" />
+        <img src={Unliked} className="absolute top-4 right-2" alt="shop online at Ekohub" />
       )}
 
       <img
@@ -212,7 +212,7 @@ function Card2M({ img, title, location, price, like, to = '#', call, chat }) {
       <div className="p-2">
         <Link to={to}>
           <div className="flex pb-2">
-            <img src={Star} alt="" />
+            <img src={Star} alt="shop online at Ekohub" />
             <span className="reviewtext pl-1">5.0 (2 reviews)</span>
           </div>
           <p className="pb-1 text-sm">{truncate(title, 25)}</p>
@@ -227,12 +227,12 @@ function Card2M({ img, title, location, price, like, to = '#', call, chat }) {
           onClick={chat}
           className="w-1/2 border-r flex justify-center items-center p-2"
         >
-          <img src={Text} className="w-4" alt="" />
+          <img src={Text} className="w-4" alt="shop online at Ekohub" />
           <p className="text-sm ml-2">CHAT</p>
         </div>
 
         <div className="w-1/2 border-l flex justify-center items-center p-2">
-          <img src={Call} className="w-4" alt="" />
+          <img src={Call} className="w-4" alt="shop online at Ekohub" />
           {Auth.isAuthenticated() ? (
             <a href={`tel:${call}`} className="text-sm ml-2">
               CALL
@@ -257,7 +257,7 @@ function Card3({ img, title, item, to = '#' }) {
         <img
           className="rounded-2xl object-cover h-48"
           src={img}
-          alt=""
+          alt="shop online at Ekohub"
           width="700"
           height="400"
         />
@@ -277,7 +277,7 @@ function Card3Mobile({ img, title, item }) {
         className="rounded-2xl object-stretch w-56 h-48"
         src={img}
         // width="50%" height="50%"
-        alt=""
+        alt="shop online at Ekohub"
       />
     </div>
   );
@@ -297,7 +297,7 @@ function Card4({ img, title, ads, to, onMouseEnter, onMouseLeave, state }) {
             <img
               src={img || Cat2}
               className="w-10 h-10 object-cover rounded-lg"
-              alt=""
+              alt="shop online at Ekohub"
             />
           </div>
 
@@ -338,7 +338,7 @@ function CardDiscover({ img, to, title, info, avatar = Duser }) {
     <div className="w-44 mr-4 my-4">
       <Link to={to}>
         <div className="relative rounded-xl">
-          <img src={Share} className="absolute w-20 top-4 right-0" alt="" />
+          <img src={Share} className="absolute w-20 top-4 right-0" alt="shop online at Ekohub" />
           <img
             src={img}
             alt="ipad"
@@ -360,7 +360,7 @@ function CardDiscoverM({ img, to, title, info, avatar = Duser }) {
     <div className="my-4 w-full p-2">
       <Link to={to}>
         <div className="relative rounded-xl">
-          <img src={Share} className="absolute w-20 top-4 right-0" alt="" />
+          <img src={Share} className="absolute w-20 top-4 right-0" alt="shop online at Ekohub" />
           <img
             src={img}
             alt="ipad"

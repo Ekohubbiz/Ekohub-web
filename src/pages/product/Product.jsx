@@ -450,7 +450,7 @@ const Product = () => {
                   <div className="my-2">
                     <p className="product-title my-2">{product?.name}</p>
                     <div className="flex">
-                      <img src={Star} alt="" className="h-3" />
+                      <img src={Star} alt="shop online at ekohub" className="h-3" />
                       <span className="text-xs pl-1 font-thin">
                         5.0 ({reviews.length} reviews)
                       </span>
@@ -465,14 +465,14 @@ const Product = () => {
                           <img
                             src={Liked}
                             className="cursor-pointer w-20 h-20"
-                            alt=""
+                            alt="shop online at ekohub"
                             onClick={() => removeFavourite(product?.id)}
                           />
                         ) : (
                           <img
                             src={Unliked}
                             className="cursor-pointer w-20 h-20"
-                            alt=""
+                            alt="shop online at ekohub"
                             onClick={() =>
                               Auth.isAuthenticated()
                                 ? addFavourite(product.id)
@@ -484,7 +484,7 @@ const Product = () => {
                           <img
                             src={Share}
                             className="cursor-pointer"
-                            alt=""
+                            alt="shop online at ekohub"
                             onClick={() => showShareModal(true)}
                           />
                         </div> */}
@@ -590,7 +590,7 @@ const Product = () => {
                         {user?.id !== product?.store?.user_id && (
                           <>
                             <div className="call-merc p-4 flex cursor-pointer">
-                              <img src={Call} alt="" className="w-4" />
+                              <img src={Call} alt="shop online at ekohub" className="w-4" />
                               <p
                                 className="text-base font-bold ml-2"
                                 onClick={() =>
@@ -617,7 +617,7 @@ const Product = () => {
                                 }
                                 className="chat-merc p-4 rounded-b-lg flex cursor-pointer"
                               >
-                                <img src={Text} alt="" className="w-4" />
+                                <img src={Text} alt="shop online at ekohub" className="w-4" />
                                 <p className="text-white text-base ml-2">
                                    Message
                                 </p>
@@ -631,7 +631,7 @@ const Product = () => {
                           <div className="flex py-1 items-center">
                             <img
                               src={product?.store?.cover_image_url || Avatar}
-                              alt=""
+                              alt="shop online at ekohub"
                               className="w-14 h-14 mr-4 rounded-full"
                             />
                             <p className="text-base font-semibold">
@@ -646,7 +646,7 @@ const Product = () => {
                             />
                           </p>
                           <div className="flex py-2">
-                            <img src={Star} alt="" className="h-3" />
+                            <img src={Star} alt="shop online at ekohub" className="h-3" />
                             <span className="text-xs pl-1 font-thin">
                               4.1 (250 reviews)
                             </span>
@@ -754,7 +754,7 @@ const Product = () => {
                             <div className="flex py-2 items-center w-52">
                               <img
                                 src={review?.user?.profile_pic_url || Avatar}
-                                alt=""
+                                alt="shop online at ekohub"
                                 className="w-10 h-10 rounded-3xl mr-4"
                               />
                               <div>
@@ -963,7 +963,7 @@ const Product = () => {
                             <div className="flex m-1 items-center">
                               <img
                                 src={msg?.content?.picture}
-                                alt=""
+                                alt="shop online at ekohub"
                                 className="w-14 h-14 rounded-xl"
                               />
                               <div className="ml-4">
@@ -1059,14 +1059,14 @@ const Product = () => {
               <img
                 src={Liked}
                 className="cursor-pointer w-20 h-20"
-                alt=""
+                alt="shop online at ekohub"
                 onClick={() => removeFavourite(product?.id)}
               />
             ) : (
               <img
                 src={Unliked}
                 className="cursor-pointer w-20 h-20"
-                alt=""
+                alt="shop online at ekohub"
                 onClick={() => addFavourite(product.id)}
               />
             )}
@@ -1149,7 +1149,7 @@ const Product = () => {
                             <div className="flex py-2 items-center w-52">
                               <img
                                 src={review?.user?.profile_pic_url || Avatar}
-                                alt=""
+                                alt="shop online at ekohub"
                                 className="w-10 h-10 rounded-3xl mr-4"
                               />
                               <div>
@@ -1195,7 +1195,7 @@ const Product = () => {
                   <div className="flex py-1 items-center">
                     <img
                       src={product?.store?.cover_image_url || Avatar}
-                      alt=""
+                      alt="shop online at ekohub"
                       className="w-14 h-14 mr-4 rounded-full"
                     />
                     <p className="text-base font-semibold">
@@ -1210,7 +1210,7 @@ const Product = () => {
                     />
                   </p>
                   <div className="flex py-2">
-                    <img src={Star} alt="" className="h-3" />
+                    <img src={Star} alt="shop online at ekohub" className="h-3" />
                     <span className="text-xs pl-1 font-thin">
                       4.1 (250 reviews)
                     </span>
@@ -1256,7 +1256,7 @@ const Product = () => {
                 {user?.id !== product?.store?.user_id && (
                   <div className="product-variant">
                     <div className="call-merc p-4 flex cursor-pointer">
-                      <img src={Call} className="w-4 h-4" alt="" />
+                      <img src={Call} className="w-4 h-4" alt="shop online at ekohub" />
                       <p
                         className="text-sm ml-2"
                         onClick={() =>
@@ -1285,7 +1285,7 @@ const Product = () => {
                     }
                     className="chat-merc p-4 rounded-b-lg flex cursor-pointer"
                   >
-                    <img src={Text} alt="" className="w-4 h-4" />
+                    <img src={Text} alt="shop online at ekohub" className="w-4 h-4" />
                     <p to={paths.MESSAGES} className="text-white text-sm ml-2">
                       Message
                     </p>

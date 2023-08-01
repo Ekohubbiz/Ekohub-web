@@ -24,7 +24,7 @@ const Feedbacks = ({ store }) => {
               <div className="flex gap-2 items-center">
                 <img
                   src={review?.user?.profile_pic_url || Avatar}
-                  alt=""
+                  alt="shop online at ekohub"
                   className="w-10 h-10 rounded-3xl"
                 />
                 <p className="text-base font-semibold">

@@ -35,7 +35,7 @@ const MobileLayout = ({
         {loading && <Loader loading={loading} />}
         {logoView && (
           <div className="flex justify-center items-center pt-4">
-            <img src={Logo} className="" alt="" />
+            <img src={Logo} className="" alt="shop online at Ekohub" />
           </div>
         )}
         {nav && (

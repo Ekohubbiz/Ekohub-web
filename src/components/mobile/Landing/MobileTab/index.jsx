@@ -18,37 +18,37 @@ const MobileTab = () => {
     <nav className="bg-white flex justify-around items-center px-2 py-2">
       <Link to={paths.HOME}>
         {window.location.pathname == paths.HOME ? (
-          <img src={HomeIcon} className="" alt="" />
+          <img src={HomeIcon} className="" alt="shop online at Ekohub" />
         ) : (
-          <img src={Homeoutline} className="" alt="" />
+          <img src={Homeoutline} className="" alt="shop online at Ekohub" />
         )}
       </Link>
       <Link to={paths.DISCOVER}>
         {window.location.pathname == paths.DISCOVER ? (
-          <img src={Discoverfilled} className="" alt="" />
+          <img src={Discoverfilled} className="" alt="shop online at Ekohub" />
         ) : (
-          <img src={DiscoverIcon} className="" alt="" />
+          <img src={DiscoverIcon} className="" alt="shop online at Ekohub" />
         )}
       </Link>
       <Link to={paths.STORE_PRODUCT}>
         {window.location.pathname == paths.STORE_PRODUCT ? (
-          <img src={CreateServiceFilled} className="" alt="" />
+          <img src={CreateServiceFilled} className="" alt="shop online at Ekohub" />
         ) : (
-          <img src={CreateService} className="" alt="" />
+          <img src={CreateService} className="" alt="shop online at Ekohub" />
         )}
       </Link>
       <Link to={paths.MESSAGES}>
         {window.location.pathname == paths.MESSAGES ? (
-          <img src={Messagefilled} className="" alt="" />
+          <img src={Messagefilled} className="" alt="shop online at Ekohub" />
         ) : (
-          <img src={MessageIcon} className="" alt="" />
+          <img src={MessageIcon} className="" alt="shop online at Ekohub" />
         )}
       </Link>
       <Link to={paths.PROFILE}>
         {window.location.pathname == paths.PROFILE ? (
-          <img src={Profilefilled} className="" alt="" />
+          <img src={Profilefilled} className="" alt="shop online at Ekohub" />
         ) : (
-          <img src={ProfileIcon} className="" alt="" />
+          <img src={ProfileIcon} className="" alt="shop online at Ekohub" />
         )}
       </Link>
     </nav>

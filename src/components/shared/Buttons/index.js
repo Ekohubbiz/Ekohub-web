@@ -21,7 +21,7 @@ function Button2({ title, onClick, disabled, icon, classes, btnstyle }) {
       className={classes}
       style={btnstyle}
     >
-      <img src={icon} className="w-10 h-6 mr-2 -ml-1 object-contain" alt="" />
+      <img src={icon} className="w-10 h-6 mr-2 -ml-1 object-contain" alt="shop online at Ekohub" />
       {title}
     </button>
   );

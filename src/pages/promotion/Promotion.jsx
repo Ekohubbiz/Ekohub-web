@@ -18,7 +18,7 @@ function Card(props) {
         style={{ color: props.title_color, paddingTop: props.title_padding }}
       >
         <span>
-          <img className="small_dot" src={props.dot} alt="" />
+          <img className="small_dot" src={props.dot} alt="shop online at Ekohub" />
         </span>
         {props.title}
       </h6>
@@ -26,7 +26,7 @@ function Card(props) {
         className="card-image"
         style={{ padding: props.img_style, width: props.img_width }}
         src={props.img}
-        alt=""
+        alt="shop online at Ekohub"
       />
       <p
         className="money"
@@ -110,18 +110,18 @@ function Promotion() {
             <div className="offer_section">
               <p className="offer_style">Offers:</p>
               <p className="offer_deets">
-                <img className="icon-circle" src={vector2} alt="" />
-                <img className="icon-mark" src={vector1} alt="" />
+                <img className="icon-circle" src={vector2} alt="shop online at Ekohub" />
+                <img className="icon-mark" src={vector1} alt="shop online at Ekohub" />
                 Maximum of 5 Ads monthly
               </p>
               <p className="offer_deets">
-                <img className="icon-circle" src={vector2} alt="" />
-                <img className="icon-mark" src={vector1} alt="" />
+                <img className="icon-circle" src={vector2} alt="shop online at Ekohub" />
+                <img className="icon-mark" src={vector1} alt="shop online at Ekohub" />
                 Ads are seen by customers in your area
               </p>
               <p className="offer_deets">
-                <img className="icon-circle" src={vector2} alt="" />
-                <img className="icon-mark" src={vector1} alt="" />
+                <img className="icon-circle" src={vector2} alt="shop online at Ekohub" />
+                <img className="icon-mark" src={vector1} alt="shop online at Ekohub" />
                 $14 per month
               </p>
             </div>

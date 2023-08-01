@@ -556,7 +556,7 @@ const Home = () => {
                             >
                               <img
                                 src={store?.cover_image_url || House}
-                                alt=""
+                                alt="shop online at ekohub"
                                 className="w-28 h-28 rounded-full"
                               />
                             </Link>
@@ -568,7 +568,7 @@ const Home = () => {
                             >
                               <img
                                 src={store?.cover_image_url || House}
-                                alt=""
+                                alt="shop online at ekohub"
                                 className="w-28 h-28 rounded-full"
                               />
                             </div>
@@ -930,7 +930,7 @@ const Home = () => {
                   >
                     <img
                       src={store?.cover_image_url || House}
-                      alt=""
+                      alt="shop online at ekohub"
                       className="w-16 h-16 rounded-full"
                     />
                   </Link>

@@ -16,7 +16,7 @@ const DownloadApp = () => {
         >
           <img
             src={PlayStore}
-            alt=""
+            alt="shop toys"
             className="lg:w-18 md:w-18 lg:h-8 md:h-8 object-cover"
           />
         </a>
@@ -27,7 +27,7 @@ const DownloadApp = () => {
         >
           <img
             src={Apple}
-            alt=""
+            alt="shop apple phones"
             className="lg:w-18 md:w-18 lg:h-8 md:h-8 object-cover"
           />
         </a>

@@ -60,7 +60,7 @@ const NavBar = () => {
     <nav className="nav-base relative sticky top-0 z-20 border-gray-200 grid grid-cols-6 py-4 px-2">
       <div className="flex flex-wrap justify-between col-span-6">
         <Link to={paths.HOME} className="flex">
-          <img src={Logo} alt="React Logo" />
+          <img src={Logo} alt="shop at Ekohub" />
         </Link>
         <div className="flex md:order-1">
           <div className="relative lg:w-80">
@@ -102,7 +102,7 @@ const NavBar = () => {
                     state={{ nav: 'notification' }}
                     className="flex items-center group text-red-500 bg-white drop-shadow-sm focus:outline-none hover:bg-red-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm p-2 mb-1 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                   >
-                    <img src={Bell} alt="React Logo" />
+                    <img src={Bell} alt="shop at Ekohub" />
                     <p className="hidden group-hover:block">Notifications</p>
                   </Link>
                 </li>
@@ -113,7 +113,7 @@ const NavBar = () => {
                     to={paths.FAVOURITE}
                     className="flex items-center group text-red-500 bg-white drop-shadow-sm  focus:outline-none hover:bg-red-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm p-2 mb-1 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                   >
-                    <img src={Favourite} alt="React Logo" />
+                    <img src={Favourite} alt="shop at Ekohub" />
                     <p className="hidden group-hover:block">Favourites</p>
                   </Link>
                 </li>
@@ -124,7 +124,7 @@ const NavBar = () => {
                     to={paths.MESSAGES}
                     className="flex items-center group text-red-500 bg-white drop-shadow-sm  focus:outline-none hover:bg-red-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm p-2 mb-1 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                   >
-                    <img src={Inbox} alt="React Logo" />
+                    <img src={Inbox} alt="shop at Ekohub" />
                     <p className="hidden group-hover:block">Messages</p>
                   </Link>
                 </li>
@@ -136,7 +136,7 @@ const NavBar = () => {
                     state={{ nav: 'account' }}
                     className="flex items-center text-red-500 bg-white drop-shadow-sm focus:outline-none hover:bg-red-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-xl text-sm p-3 mx-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                   >
-                    <img src={User} alt="React Logo" />
+                    <img src={User} alt="shop at Ekohub" />
                     <p className="ml-2 text-sm">{user?.first_name}</p>
                   </Link>
                 </li>

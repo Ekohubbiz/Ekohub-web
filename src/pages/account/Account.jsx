@@ -118,7 +118,7 @@ const Account = ({ stores, user }) => {
                 user?.profile_pic_url ||
                 Avatar
               }
-              alt=""
+              alt="shop online at Ekohub"
               className="w-24 h-24 rounded-full"
             />
             <label className="text-xs cursor-pointer">
@@ -181,7 +181,7 @@ const Account = ({ stores, user }) => {
                 stores?.cover_image_url ||
                 Avatar
               }
-              alt=""
+              alt="shop online at Ekohub"
               className="w-24 rounded-full"
             />
             <label className="text-xs cursor-pointer">
