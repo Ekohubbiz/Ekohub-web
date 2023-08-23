@@ -5,11 +5,11 @@ import { store } from './redux/store';
 import AppRoutes from './routes';
 
 // Import the functions you need from the SDKs you need
+import { GoogleOAuthProvider } from '@react-oauth/google';
 import firebase from 'firebase/compat/app';
 import { CLIENT_ID, firebaseConfig } from './constants';
-import { GoogleOAuthProvider } from '@react-oauth/google';
 const usePageMeta = (title, description, keywords) => {
-  const defaultTitle = "Ekohub";
+  const defaultTitle = "EkoHub | Online Shopping for Gadgets, Fashion, Accessories & More!";
   const defaultDesc = "Shop online a wide range";
   const defaultKeys = "Shop Online";
 
